@@ -9,6 +9,18 @@ import streamlit as st
 
 st.set_page_config(page_title="Sparesharing Landed Cost (DE, PRO)", page_icon="📦", layout="wide")
 
+import streamlit as st
+
+st.set_page_config(page_title="Landing Cost Calculator – Sparesharing")
+
+col1, col2 = st.columns([1,5])
+with col1:
+    st.image("logo.png", width=120)  # Logo einfügen
+with col2:
+    st.title("Landing Cost Calculator")
+    st.caption("Sparesharing – Dein Partner für transparente Beschaffungskosten")
+
+
 # -----------------------------
 # Defaults / Settings
 # -----------------------------
